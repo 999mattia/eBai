@@ -1,0 +1,74 @@
+Post advert:
+{
+  "id": 0,
+  "name": "test",
+  "user": {
+    "id": 1
+  }
+}
+----------------------------------
+Post location:
+{
+  "id": 0,
+  "plz": 1000,
+  "users": [],
+  "name": "test"
+} 
+----------------------------------
+Post user:          
+{ 
+  "id": 0,
+  "name": "test",
+  "location": {
+    "id": 1
+  },
+  "adverts": [],
+  "bids": []
+}
+-----------------------------------
+Post bid: 
+{
+  "id": 0,
+  "value": 1,
+  "advert": {
+    "id": 1
+  },
+  "user": {
+    "id": 1
+  }
+}
+-----------------------------------
+Put user:
+{
+  "id": 4,
+  "name": "test2",
+  "location" : {
+    "id" : 1
+   },
+  "adverts": [],
+  "bids": []
+}
+-------------------------------------
+Put bid: 
+{
+  "id": 3,
+  "value": 1,
+  "advert" : {
+    "id" : 1
+  },
+  "user" : {
+    "id" : 1
+  }
+}
+-----------------------------------
+Put Location: 
+  {
+    "id": 1,
+    "plz": 3292,
+    "users": [
+      {
+        "id": 1
+      }
+    ],
+    "name": "Dotzigen"
+  }
